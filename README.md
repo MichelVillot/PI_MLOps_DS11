@@ -55,58 +55,60 @@ Link: https://labs-mlops.onrender.com/docs
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
 # Manual de Funcionamiento de los endpoints en el Deploy
-Endpoints: 
+`Endpoints - Informacion`: 
 
 `Importante`: Tener en cuenta que cualquier endpoint (o funciones) que en su consulta tenga espacios los mismos deben ser reemplazados por %20.
 
-
 `Ejemplo`: https://labs-mlops.onrender.com/score_titulo/Father%20of%20the%20bride%20part%20II , como podemos ver cada espacio en el URL fue reemplazado por %20
 
-
-
+`Endpoints`
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    
    Ejemplo de acceso directo:
-   https://labs-mlops.onrender.com/cantidad_filmaciones_mes/enero y retorna todas las peliculas estrenadas en el mes de `enero`
+   https://labs-mlops.onrender.com/cantidad_filmaciones_mes/enero > retorna todas las peliculas estrenadas en el mes de `enero`
    
    
 *  /cantidad_filmaciones_dia/{dia}:                       
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`dia_escrito_en_español` > Donde `dia_escrito_en_español` es el dia de la semana que queremos consultar.
    
    Ejemplo de acceso directo:
-   https://labs-mlops.onrender.com/cantidad_filmaciones_dia/lunes y retorna todas las peliculas estrenadas en el dia `lunes`
+   https://labs-mlops.onrender.com/cantidad_filmaciones_dia/lunes > retorna todas las peliculas estrenadas en el dia `lunes`
     
     
 *  /score_titulo/{titulo_de_la_filmacion}:
    https://labs-mlops.onrender.com/score_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
-   *Ojo: Tener en cuenta que si el titulo a consultar tiene `espacios` los mismos se representan con %20*
+  
    
    Ejemplo de acceso directo:
-   https://labs-mlops.onrender.com/score_titulo/toy%20story y retornar el score/popularidad de la pelicula`Toy Story`
+   https://labs-mlops.onrender.com/score_titulo/toy%20story > retorna el score/popularidad de la pelicula`Toy Story`
 
 
 *  /votos_titulo/{titulo_de_la_filmacion}:
    https://labs-mlops.onrender.com/votos_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
-    *Ojo: Tener en cuenta que si el titulo a consultar tiene `espacios` los mismos se representan con %20*
+   
     
    Ejemplo de acceso directo:
-   https://labs-mlops.onrender.com/votos_titulo/the%20godfather y retorna la cantidad de votos que posee la pelicula `The Godfather`
+   https://labs-mlops.onrender.com/votos_titulo/the%20godfather > retorna la cantidad de votos que posee la pelicula `The Godfather`
 
 
 *  /get_actor/{nombre_actor}:
    https://labs-mlops.onrender.com/get_actor/`nombre_del_actor` > Donde `nombre_del_actor` es el nombre del actor que deseamos consultar.
    
    Ejemplo:
-   https://labs-mlops.onrender.com/get_actor/robin%20williams
+   https://labs-mlops.onrender.com/get_actor/robin%20williams > retorna cantidad de peliculas, retorno total y retorno promedio de `Robin Williams`
 
 *  /get_director/{nombre_director}:
-
+   https://labs-mlops.onrender.com/get_director/`nombre_del_director` > Donde `nombre_del_director` es el nombre del director que deseamos consultar.
+   
+   Ejemplo:
+   https://labs-mlops.onrender.com/get_actor/james%20cameron > retorna la informacion general de `James Cameron`
 
 *  /recomendacion/{titulo}:
-
-
-
+   https://labs-mlops.onrender.com/recomendacion/`titulo_de_la_pelicula` > Donde `nombre_del_director` es el nombre del director que deseamos consultar.
+   
+   Ejemplo:
+   https://labs-mlops.onrender.com/recomendacion/toy%20story > retorna una lista con las 5 peliculas similares para el titulo `Toy Story`
 
 
 # Estructura del Repositorio
