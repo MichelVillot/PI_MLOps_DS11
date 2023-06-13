@@ -113,6 +113,7 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
 # Video
 
 Link del Video:
+
 # Estructura del Repositorio
 
 * `Directorios`
@@ -134,4 +135,4 @@ Link del Video:
 * `requirements.txt`: Archivo el cual contiene las versiones usadas durante el proceso para poder levantar el deploy.
 
 # Requerimientos del Proyecto:
-Los requerimientos principales se pueden encontrar en el siguiente link: https://github.com/HX-PRomero/PI_ML_OPS/blob/main/Readme.md
+Los requerimientos del proyecto solicitados por Henry se pueden encontrar en el siguiente link: https://github.com/HX-PRomero/PI_ML_OPS/blob/main/Readme.md
