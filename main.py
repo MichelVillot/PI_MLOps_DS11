@@ -253,7 +253,7 @@ def recomendacion(titulo: str):
     indice = df[df["title"] == titulo].index[0]
     distancia = sorted(list(enumerate(similaridad[indice])), reverse=True, key=lambda vector:vector[1])
     lista_peliculas = []
-    for i in distancia[0:5]:
+    for i in distancia[1:6]:
         lista_peliculas.append(df.iloc[i[0]].title)
     
     return lista_peliculas
