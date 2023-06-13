@@ -102,7 +102,7 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
    https://labs-mlops.onrender.com/get_director/nombre_del_director > Donde `nombre_del_director` es el nombre del director que deseamos consultar.
    
    Ejemplo:
-   https://labs-mlops.onrender.com/get_actor/james%20cameron > retorna la informacion general de `James Cameron`
+   https://labs-mlops.onrender.com/get_director/james%20cameron > retorna la informacion general de `James Cameron`
 
 *  /recomendacion/{titulo}:
    https://labs-mlops.onrender.com/recomendacion/titulo_de_la_pelicula > Donde `nombre_del_director` es el nombre del director que deseamos consultar.
