@@ -50,19 +50,21 @@ Para el sistema de recomendaciones se utilizaron solo 5mil registros del total d
 
 # Deploy
 El deploy fue realizado en la plataforma Render, simulando una API (FastApi) para el consumo de cualquier persona externa.
-Link: https://labs-mlops.onrender.com
+Link: https://labs-mlops.onrender.com/docs
 
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
 Funciones:                                                                   
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
+   
    Ejemplo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`enero` y retorna todas las peliculas estrenadas en el mes de `enero`
    
    
 *  /cantidad_filmaciones_dia/{dia}:                       
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`dia_escrito_en_español` > Donde `dia_escrito_en_español` es el dia de la semana que queremos consultar.
+   
    Ejemplo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`lunes` y retorna todas las peliculas estrenadas en el dia `lunes`
     
