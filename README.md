@@ -60,29 +60,31 @@ Funciones:
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    
-   Ejemplo:
+   Ejemplo de acceso directo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/enero y retorna todas las peliculas estrenadas en el mes de `enero`
    
    
 *  /cantidad_filmaciones_dia/{dia}:                       
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`dia_escrito_en_español` > Donde `dia_escrito_en_español` es el dia de la semana que queremos consultar.
    
-   Ejemplo:
+   Ejemplo de acceso directo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/lunes y retorna todas las peliculas estrenadas en el dia `lunes`
     
     
 *  /score_titulo/{titulo_de_la_filmacion}:
    https://labs-mlops.onrender.com/score_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
+   *Ojo: Tener en cuenta que si el titulo a consultar tiene `espacios` los mismos se representan con %20*
    
-   Ejemplo:
-   https://labs-mlops.onrender.com/score_titulo/toy story y retornar el score/popularidad de la pelicula`Toy Story`
+   Ejemplo de acceso directo:
+   https://labs-mlops.onrender.com/score_titulo/toy%20story y retornar el score/popularidad de la pelicula`Toy Story`
 
 
 *  /votos_titulo/{titulo_de_la_filmacion}:
    https://labs-mlops.onrender.com/votos_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
-   
-   Ejemplo:
-   https://labs-mlops.onrender.com/votos_titulo/the godfather y retorna la cantidad de votos que posee la pelicula `The Godfather`
+    *Ojo: Tener en cuenta que si el titulo a consultar tiene `espacios` los mismos se representan con %20*
+    
+   Ejemplo de acceso directo:
+   https://labs-mlops.onrender.com/votos_titulo/the%20godfather y retorna la cantidad de votos que posee la pelicula `The Godfather`
 
 
 *  /get_actor/{nombre_actor}:
