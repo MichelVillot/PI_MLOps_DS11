@@ -56,9 +56,11 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
 
 # Manual de Funcionamiento de los endpoints en el Deploy
 Endpoints: 
+
 `Importante`: Tener en cuenta que cualquier endpoint (o funciones) que en su consulta tenga espacios los mismos deben ser reemplazados por %20.
 
-`Ejemplo`: https://labs-mlops.onrender.com/score_titulo/`Father%20of%20the%20bride%20part%20II` , como podemos ver cada espacio en el URL fue reemplazado por %20
+
+`Ejemplo`: https://labs-mlops.onrender.com/score_titulo/Father%20of%20the%20bride%20part%20II , como podemos ver cada espacio en el URL fue reemplazado por %20
 
 
 
