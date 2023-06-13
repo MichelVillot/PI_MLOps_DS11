@@ -112,7 +112,7 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
 
 # Video
 
-Link del Video:
+Link del Video: https://youtu.be/19BRtMxn7LA
 
 # Estructura del Repositorio
 
