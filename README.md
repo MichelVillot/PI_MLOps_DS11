@@ -55,26 +55,26 @@ Link: https://labs-mlops.onrender.com
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
 Funciones:                                                                   
-#  /cantidad_filmaciones_mes/{mes}:          
+*  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    Ejemplo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`enero` y retorna todas las peliculas estrenadas en el mes de `enero`
    
    
-#  /cantidad_filmaciones_dia/{dia}:                       
+*  /cantidad_filmaciones_dia/{dia}:                       
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`dia_escrito_en_español` > Donde `dia_escrito_en_español` es el dia de la semana que queremos consultar.
    Ejemplo:
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`lunes` y retorna todas las peliculas estrenadas en el dia `lunes`
     
-#  /score_titulo/{titulo_de_la_filmacion}:
+*  /score_titulo/{titulo_de_la_filmacion}:
 
-#  /votos_titulo/{titulo_de_la_filmacion}:
+*  /votos_titulo/{titulo_de_la_filmacion}:
 
-#  /get_actor/{nombre_actor}:
+*  /get_actor/{nombre_actor}:
 
-#  /get_director/{nombre_director}:
+*  /get_director/{nombre_director}:
 
-#  /recomendacion/{titulo}:
+*  /recomendacion/{titulo}:
 
 # Estructura del Repositorio
 
