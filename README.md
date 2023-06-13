@@ -54,9 +54,8 @@ Link: https://labs-mlops.onrender.com/docs
 
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
-* Manual de Funcionamiento del Deploy
-
-Funciones:                                                                   
+# Manual de Funcionamiento de los endpoints en el Deploy
+Endpoints:                                                                   
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    
