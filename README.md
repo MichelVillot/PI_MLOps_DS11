@@ -55,7 +55,13 @@ Link: https://labs-mlops.onrender.com/docs
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
 # Manual de Funcionamiento de los endpoints en el Deploy
-Endpoints:                                                                   
+Endpoints: 
+`Importante`: Tener en cuenta que cualquier endpoint (o funciones) que en su consulta tenga espacios los mismos deben ser reemplazados por %20.
+
+`Ejemplo`: https://labs-mlops.onrender.com/score_titulo/`Father%20of%20the%20bride%20part%20II` , como podemos ver cada espacio en el URL fue reemplazado por %20
+
+
+
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    
