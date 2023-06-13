@@ -54,29 +54,51 @@ Link: https://labs-mlops.onrender.com/docs
 
 El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoints solicitados para hacer el MVP.
 
+* Manual de Funcionamiento del Deploy
+
 Funciones:                                                                   
 *  /cantidad_filmaciones_mes/{mes}:          
    https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`mes_escrito_en_español` > Donde `mes_escrito_en_español` es el mes que queremos consultar.
    
    Ejemplo:
-   https://labs-mlops.onrender.com/cantidad_filmaciones_mes/`enero` y retorna todas las peliculas estrenadas en el mes de `enero`
+   https://labs-mlops.onrender.com/cantidad_filmaciones_mes/enero y retorna todas las peliculas estrenadas en el mes de `enero`
    
    
 *  /cantidad_filmaciones_dia/{dia}:                       
    https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`dia_escrito_en_español` > Donde `dia_escrito_en_español` es el dia de la semana que queremos consultar.
    
    Ejemplo:
-   https://labs-mlops.onrender.com/cantidad_filmaciones_dia/`lunes` y retorna todas las peliculas estrenadas en el dia `lunes`
+   https://labs-mlops.onrender.com/cantidad_filmaciones_dia/lunes y retorna todas las peliculas estrenadas en el dia `lunes`
+    
     
 *  /score_titulo/{titulo_de_la_filmacion}:
+   https://labs-mlops.onrender.com/score_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
+   
+   Ejemplo:
+   https://labs-mlops.onrender.com/score_titulo/toy story y retornar el score/popularidad de la pelicula`Toy Story`
+
 
 *  /votos_titulo/{titulo_de_la_filmacion}:
+   https://labs-mlops.onrender.com/votos_titulo/`titulo_de_la_pelicula` > Donde `titulo_de_la_pelicula` es el titulo de la pelicula que deseamos consultar.
+   
+   Ejemplo:
+   https://labs-mlops.onrender.com/votos_titulo/the godfather y retorna la cantidad de votos que posee la pelicula `The Godfather`
+
 
 *  /get_actor/{nombre_actor}:
+   https://labs-mlops.onrender.com/get_actor/`nombre_del_actor` > Donde `nombre_del_actor` es el nombre del actor que deseamos consultar.
+   
+   Ejemplo:
+   https://labs-mlops.onrender.com/get_actor/robin%20williams
 
 *  /get_director/{nombre_director}:
 
+
 *  /recomendacion/{titulo}:
+
+
+
+
 
 # Estructura del Repositorio
 
