@@ -110,7 +110,9 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
    Ejemplo:
    https://labs-mlops.onrender.com/recomendacion/toy%20story > retorna una lista con las 5 peliculas similares para el titulo `Toy Story`
 
+# Video
 
+Link del Video:
 # Estructura del Repositorio
 
 * `Directorios`
@@ -130,3 +132,6 @@ El deploy esta asociado al archivo `main.py` el cual contiene todos los endpoint
 * ` README.md`: Archivo con toda la informacion del proyecto
 * `main.py`: Archivo para poder inicializar nuestro deploy de forma remota, en este caso contiene todos los endpoints para realizar las consultas.
 * `requirements.txt`: Archivo el cual contiene las versiones usadas durante el proceso para poder levantar el deploy.
+
+# Requerimientos del Proyecto:
+Los requerimientos principales se pueden encontrar en el siguiente link: https://github.com/HX-PRomero/PI_ML_OPS/blob/main/Readme.md
