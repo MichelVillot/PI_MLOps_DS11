@@ -233,7 +233,7 @@ def get_director(nombre_director: str):
     retorno_total = df.loc[indice_director, "return"].sum()        
     titulo = df.loc[indice_director, "title"]
     retorno_individual = df.loc[indice_director, "return"]
-    fecha_lanzamiento = df.loc[indice_director, "release_date"].dt.date
+    fecha_lanzamiento = df.loc[indice_director, "release_date"]
     costo = df.loc[indice_director, "budget"]
     ganancia = df.loc[indice_director, "revenue"]  
 
